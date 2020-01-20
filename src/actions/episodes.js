@@ -3,7 +3,7 @@ import { GET_EPISODELIST, GET_EPISODEDETAILBYID, CHANGE_SEASON } from "../consta
 
 export const getEpisodeList = showId => dispatch => {
   axios
-    .get(`http://api.tvmaze.com/shows/${showId}/episodes`)
+    .get(`https://api.tvmaze.com/shows/${showId}/episodes`)
     .then(res => {
       dispatch({
         type: GET_EPISODELIST,
@@ -15,7 +15,7 @@ export const getEpisodeList = showId => dispatch => {
 
 export const getEpisodeDetailById = episodeId => dispatch => {
   axios
-    .get(`http://api.tvmaze.com/episodes/${episodeId}`)
+    .get(`https://api.tvmaze.com/episodes/${episodeId}`)
     .then(res => {
       dispatch({
         type: GET_EPISODEDETAILBYID,

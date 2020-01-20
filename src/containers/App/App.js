@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import store from "../../store";
 
 // Page routing
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 import HomePage from "../../pages/HomePage";
 import ShowPage from "../../pages/ShowPage";
 import EpisodePage from "../../pages/EpisodePage";
@@ -26,7 +26,7 @@ class App extends React.Component {
       <main className="App">
         <h1 className="sr-only">TV Show App</h1>
         <Provider store={store}>
-          <Router>
+          <Router basename="/">
             <Switch>
               <Route path="/" exact component={HomePage} />
               <Route path="/shows" exact component={HomePage} />
