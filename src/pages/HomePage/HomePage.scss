@@ -1,0 +1,10 @@
+@import "../../styles/styles.scss";
+
+.HomePage {
+  &__featured {
+    background-color: theme-color("background", "base");
+  }
+  &__show-list {
+    background-color: theme-color("background", "light");
+  }
+}

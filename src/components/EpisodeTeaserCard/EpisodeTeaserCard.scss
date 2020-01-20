@@ -1,0 +1,12 @@
+@import "../../styles/styles.scss";
+
+.EpisodeTeaserCard {
+  text-decoration: none;
+  &__card {
+    @extend .card;
+    background-color: theme-color("primary", "dark");
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: theme-color("background", "light");
+  }
+}

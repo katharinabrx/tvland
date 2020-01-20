@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render ShowTeaserCard component with empty input 1`] = `
+<article
+  className="ShowTeaserCard"
+>
+  <Link
+    className="ShowTeaserCard__link"
+    to="/shows/undefined"
+  >
+    <img
+      className="ShowTeaserCard__card"
+    />
+    <div
+      className="ShowTeaserCard__title"
+    />
+  </Link>
+</article>
+`;
+
+exports[`expect to render ShowTeaserCard component with image 1`] = `
+<article
+  className="ShowTeaserCard"
+>
+  <Link
+    className="ShowTeaserCard__link"
+    key="1"
+    to="/shows/1"
+  >
+    <img
+      alt="Test Name"
+      className="ShowTeaserCard__card"
+      src={
+        Array [
+          Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4600.jpg",
+          },
+        ]
+      }
+    />
+    <div
+      className="ShowTeaserCard__title"
+    >
+      Test Name
+    </div>
+  </Link>
+</article>
+`;
+
+exports[`expect to render ShowTeaserCard component with placeholder image 1`] = `
+<article
+  className="ShowTeaserCard"
+>
+  <Link
+    className="ShowTeaserCard__link"
+    to="/shows/undefined"
+  >
+    <img
+      className="ShowTeaserCard__card"
+    />
+    <div
+      className="ShowTeaserCard__title"
+    />
+  </Link>
+</article>
+`;

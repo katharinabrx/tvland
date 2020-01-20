@@ -1,0 +1,19 @@
+@import "../../styles/styles.scss";
+.ShowTeaserCard {
+  text-decoration: none;
+
+  &__card {
+    margin-bottom: 1rem;
+    width: 100%;
+    @extend .card;
+    text-decoration: none;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  &__title {
+    color: theme-color("primary", "dark");
+    font-weight: 700;
+    @include text-setting("md");
+  }
+}

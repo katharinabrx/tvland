@@ -1,0 +1,70 @@
+$border-radius-base: 0.5rem;
+
+// Global styling for typography
+body {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: theme-color("primary", "dark");
+}
+
+p {
+  @include text-setting("sm");
+  @include breakpoint("md") {
+    @include text-setting("base");
+  }
+}
+
+h1,
+.h1 {
+  @include text-setting("xl");
+  font-weight: 900;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+h2,
+.h2 {
+  @include text-setting("lg");
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+// Content that is only visible for screen readers
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+  -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+// Custom UI Component Styles
+.card {
+  border-radius: $border-radius-base;
+  box-shadow: rgba(theme-color("primary", "dark"), 0.2) 0 1rem 2.5rem -0.33rem;
+  transition: transform 0.2s ease;
+}
+a .card {
+  &:hover,
+  &:focus {
+    transform: scale(1.02);
+  }
+}
+
+.button {
+  text-decoration: none;
+  background-color: theme-color("primary", "base");
+  color: theme-color("background", "base");
+  font-weight: bold;
+  border-radius: $border-radius-base;
+  padding: 1rem;
+}

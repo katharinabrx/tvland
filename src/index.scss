@@ -1,0 +1,15 @@
+@import "./styles/styles.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+// HomePage
+export const GET_SHOWLIST = "GET_SHOWLIST";
+
+// ShowPage
+export const GET_SHOWDETAIL = "GET_SHOWDETAIL";
+export const GET_EPISODELIST = "GET_EPISODELIST";
+export const CHANGE_SEASON = "CHANGE_SEASON";
+
+// EpisodePage
+export const GET_EPISODEDETAILBYID = "GET_EPISODEDETAILBYID";

@@ -1,0 +1,51 @@
+// Functions
+
+// Color
+@function theme-color($key: "primary", $variant: "base") {
+  $map: map-get($theme-colors, $key);
+  @return map-get($map, $variant);
+}
+
+// Typography
+@function text-scale($level) {
+  @return map-get(map-get($text-settings, $level), "font-size");
+}
+
+@function line-height($level) {
+  @return map-get(map-get($text-settings, $level), "line-height");
+}
+
+@mixin text-setting($level) {
+  font-size: text-scale($level);
+  line-height: line-height($level);
+}
+
+// Layout
+
+// min or max
+$media-direction: min; // min / max — default is min (mobile first)
+
+// Breakpoints
+$breakpoints: (
+  "default": "",
+  "xs": 480px,
+  "sm": 667px,
+  "md": 1024px,
+  "lg": 1280px,
+  "xl": 1680px
+);
+
+// Breakpoint Mixin
+@mixin breakpoint($breakpoint, $direction: $media-direction) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (#{$direction}-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  } //Custom breakpoint
+  @else if unitless($breakpoint) {
+    $breakpoint: $breakpoint + 0px;
+    @media (#{$direction}-width: $breakpoint) {
+      @content;
+    }
+  }
+}

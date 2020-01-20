@@ -1,0 +1,59 @@
+// Color palette
+$theme-colors: (
+  "primary": (
+    "base": #f42832,
+    "light": #99a2ab,
+    "dark": #21272d
+  ),
+  "background": (
+    "base": #fff,
+    "light": #f6f8fa,
+    "dark": #dfe4e8
+  )
+);
+
+// Typography
+$base-font-size: 1rem;
+$base-line-height: 1.25 * $base-font-size;
+
+$text-settings: (
+  "xs": (
+    font-size: 0.75rem,
+    line-height: $base-line-height
+  ),
+  "sm": (
+    font-size: 1rem,
+    line-height: $base-line-height
+  ),
+  "base": (
+    font-size: 1.125rem,
+    line-height: $base-line-height * 1.5
+  ),
+  "md": (
+    font-size: 1.3rem,
+    line-height: $base-line-height * 1.5
+  ),
+  "lg": (
+    font-size: 2rem,
+    line-height: $base-line-height * 2
+  ),
+  "xl": (
+    font-size: 3rem,
+    line-height: $base-line-height * 2
+  )
+);
+
+// Layout
+
+// Mobile first approach ( min / max - default is min)
+$media-direction: min;
+
+// Breakpoints used for media queries
+$breakpoints: (
+  "default": "",
+  "xs": 480px,
+  "s": 667px,
+  "m": 1024px,
+  "l": 1280px,
+  "xl": 1680px
+);

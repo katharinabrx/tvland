@@ -1,3 +1,21 @@
+## Folder Structure
+
+# assets
+
+Assets such as images, icons etc.
+
+# components
+
+All components that are presentational
+
+# containers
+
+All components that contain the business logic of the application
+
+# pages
+
+All components that represent a React Route are stored here
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

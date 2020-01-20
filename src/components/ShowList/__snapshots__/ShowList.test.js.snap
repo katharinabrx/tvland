@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render ShowList component 1`] = `
+<section
+  className="ShowList"
+>
+  <h2>
+    Shows
+  </h2>
+  <div
+    className="ShowList__grid"
+  >
+    <ShowTeaserCard
+      key="0"
+      showImage="placeholder.jpg"
+      showName="Show"
+    />
+    <ShowTeaserCard
+      key="1"
+      showImage="placeholder.jpg"
+      showName="Show"
+    />
+    <ShowTeaserCard
+      key="2"
+      showImage="placeholder.jpg"
+      showName="Show"
+    />
+    <ShowTeaserCard
+      key="3"
+      showImage="placeholder.jpg"
+      showName="Show"
+    />
+    <ShowTeaserCard
+      key="4"
+      showImage="placeholder.jpg"
+      showName="Show"
+    />
+    <ShowTeaserCard
+      key="5"
+      showImage="placeholder.jpg"
+      showName="Show"
+    />
+  </div>
+</section>
+`;
+
+exports[`expect to render ShowList component with placeholders 1`] = `
+<section
+  className="ShowList"
+>
+  <h2>
+    Shows
+  </h2>
+  <div
+    className="ShowList__grid"
+  >
+    )} }
+  </div>
+</section>
+`;
