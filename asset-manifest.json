@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tvland/static/css/main.32b24f41.chunk.css",
-    "main.js": "/tvland/static/js/main.8b47d89f.chunk.js",
-    "main.js.map": "/tvland/static/js/main.8b47d89f.chunk.js.map",
+    "main.js": "/tvland/static/js/main.d7862ded.chunk.js",
+    "main.js.map": "/tvland/static/js/main.d7862ded.chunk.js.map",
     "runtime-main.js": "/tvland/static/js/runtime-main.705e775f.js",
     "runtime-main.js.map": "/tvland/static/js/runtime-main.705e775f.js.map",
     "static/js/2.b110a34b.chunk.js": "/tvland/static/js/2.b110a34b.chunk.js",
     "static/js/2.b110a34b.chunk.js.map": "/tvland/static/js/2.b110a34b.chunk.js.map",
     "index.html": "/tvland/index.html",
-    "precache-manifest.75c282736805e3032dd9b5b3fc4a0d88.js": "/tvland/precache-manifest.75c282736805e3032dd9b5b3fc4a0d88.js",
+    "precache-manifest.7b39862be9aeafa4cf1c83202fb4e07e.js": "/tvland/precache-manifest.7b39862be9aeafa4cf1c83202fb4e07e.js",
     "service-worker.js": "/tvland/service-worker.js",
     "static/css/main.32b24f41.chunk.css.map": "/tvland/static/css/main.32b24f41.chunk.css.map",
     "static/js/2.b110a34b.chunk.js.LICENSE": "/tvland/static/js/2.b110a34b.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.705e775f.js",
     "static/js/2.b110a34b.chunk.js",
     "static/css/main.32b24f41.chunk.css",
-    "static/js/main.8b47d89f.chunk.js"
+    "static/js/main.d7862ded.chunk.js"
   ]
 }
