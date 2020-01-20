@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56f6c3e67c558c12ae6a019628fd0f6d",
+    "revision": "d26ca7bb52cf24dd2b9bed7be53d76a3",
     "url": "/tvland/index.html"
   },
   {
-    "revision": "5ccb7972f5c4e13976b9",
+    "revision": "2f5f4bcf784a4359dc5e",
     "url": "/tvland/static/css/main.32b24f41.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tvland/static/js/2.b110a34b.chunk.js.LICENSE"
   },
   {
-    "revision": "5ccb7972f5c4e13976b9",
-    "url": "/tvland/static/js/main.648503e5.chunk.js"
+    "revision": "2f5f4bcf784a4359dc5e",
+    "url": "/tvland/static/js/main.8b47d89f.chunk.js"
   },
   {
     "revision": "a2821cbe2b4b718c82f0",
