@@ -1,20 +1,35 @@
-## Folder Structure
+# TVLAND App
 
-# assets
+Thank you for taking the time to review my submission to this coding challenge.
 
+Below are few notes on my solution
+
+## The Folder Structure
+
+**actions** and **reducers**
+Actions and reducers that are needed for state management with redux.
+**assets**
 Assets such as images, icons etc.
+**components**
+All components that are presentational.
+**containers**
+All components that contain the business logic of the application.
+**pages**
+All components that represent a React Route are stored here.
 
-# components
+## Next Tasks
 
-All components that are presentational
+Below are some notes on improvements I already noticed while cross-broweser-testing the application.
 
-# containers
+- I tried to catch some obvious errors, but I am pretty sure that there are some more when chosing a different show than 'The Powerpuff Girls'. So an important next step would be adding additional tests.
+- Add better css browser fallback. So far I only added a polyfill to support IE11, but there should also be a better CSS replacement for the used CSS grid. By default it will just display the mobile version.
+- Improve responsiveness of the app. For this challenge I only focused on showing some basic breakpoints in the app. I didn't optimize is for all screen sizes such as 320px wide ones.
+- I added some routes to include a home screens with different tv shows. While developing the app I changed my planned design a little bit to include a dropdown filter function. This resulted in an identical design of the episode list in both EpisodePage and ShowPage and therefore some duplicate code. So in a next step I would refactor that code and maybe add a new component and/or change the routing a bit.
 
-All components that contain the business logic of the application
+Thanks again for your time,
+Katharina
 
-# pages
-
-All components that represent a React Route are stored here
+# Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
