@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tvland/precache-manifest.774252d914260448f98d36c3cda89220.js"
+  "/tvland/precache-manifest.3d80de82ce13482c45a34af50e2506ba.js"
 );
 
 self.addEventListener('message', (event) => {

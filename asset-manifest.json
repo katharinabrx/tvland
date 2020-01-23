@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/tvland/static/css/main.32b24f41.chunk.css",
-    "main.js": "/tvland/static/js/main.d7862ded.chunk.js",
-    "main.js.map": "/tvland/static/js/main.d7862ded.chunk.js.map",
+    "main.js": "/tvland/static/js/main.08d587ac.chunk.js",
+    "main.js.map": "/tvland/static/js/main.08d587ac.chunk.js.map",
     "runtime-main.js": "/tvland/static/js/runtime-main.705e775f.js",
     "runtime-main.js.map": "/tvland/static/js/runtime-main.705e775f.js.map",
-    "static/js/2.b110a34b.chunk.js": "/tvland/static/js/2.b110a34b.chunk.js",
-    "static/js/2.b110a34b.chunk.js.map": "/tvland/static/js/2.b110a34b.chunk.js.map",
+    "static/js/2.e68c1084.chunk.js": "/tvland/static/js/2.e68c1084.chunk.js",
+    "static/js/2.e68c1084.chunk.js.map": "/tvland/static/js/2.e68c1084.chunk.js.map",
     "index.html": "/tvland/index.html",
-    "precache-manifest.774252d914260448f98d36c3cda89220.js": "/tvland/precache-manifest.774252d914260448f98d36c3cda89220.js",
+    "precache-manifest.3d80de82ce13482c45a34af50e2506ba.js": "/tvland/precache-manifest.3d80de82ce13482c45a34af50e2506ba.js",
     "service-worker.js": "/tvland/service-worker.js",
     "static/css/main.32b24f41.chunk.css.map": "/tvland/static/css/main.32b24f41.chunk.css.map",
-    "static/js/2.b110a34b.chunk.js.LICENSE": "/tvland/static/js/2.b110a34b.chunk.js.LICENSE",
+    "static/js/2.e68c1084.chunk.js.LICENSE": "/tvland/static/js/2.e68c1084.chunk.js.LICENSE",
     "static/media/arrow-back.svg": "/tvland/static/media/arrow-back.d6cf0c0e.svg",
     "static/media/placeholder.jpg": "/tvland/static/media/placeholder.75e2a7cd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.705e775f.js",
-    "static/js/2.b110a34b.chunk.js",
+    "static/js/2.e68c1084.chunk.js",
     "static/css/main.32b24f41.chunk.css",
-    "static/js/main.d7862ded.chunk.js"
+    "static/js/main.08d587ac.chunk.js"
   ]
 }
