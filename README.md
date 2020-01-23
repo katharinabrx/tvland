@@ -6,15 +6,24 @@ Below are few notes on my solution
 
 ## The Folder Structure
 
-**actions** and **reducers**
+### actions and reducers
+
 Actions and reducers that are needed for state management with redux.
-**assets**
+
+### assets
+
 Assets such as images, icons etc.
-**components**
+
+### components
+
 All components that are presentational.
-**containers**
+
+### containers
+
 All components that contain the business logic of the application.
-**pages**
+
+### pages
+
 All components that represent a React Route are stored here.
 
 ## Next Tasks
